@@ -1,0 +1,15 @@
+# credentials: copy secrets.example.h to secrets.h, which is never committed
+secrets.h
+
+# Arduino IDE / arduino-cli / PlatformIO build output
+build/
+*.bin
+*.elf
+*.hex
+.pio/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
